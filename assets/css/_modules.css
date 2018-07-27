@@ -1,0 +1,14 @@
+.button {
+  background: #F8E71C;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+  .button:hover {
+    background: #fbf17f; }

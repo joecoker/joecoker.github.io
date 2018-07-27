@@ -1,0 +1,66 @@
+body {
+  font-family: $Dosis;
+  font-size: 16px;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+
+  position: relative;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $Dosis;
+  font-weight: 700;
+  line-height: 1.25
+}
+
+h1 {
+  color: $textBlue;
+}
+
+#site-title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin: 0 0 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.title-flex {
+  flex: 100%;
+
+  &:before {
+    content: "";
+    padding: .25rem .5rem;
+    background: $textBlue;
+    margin-right: .5rem;
+    }
+
+  &-work {
+    color: white;
+    position: relative;
+    &:before {
+    content: "";
+    padding: .25rem .5rem;
+    background: white;
+    margin-right: .5rem;
+    }
+    }
+    }
