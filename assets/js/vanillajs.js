@@ -1,5 +1,6 @@
 let scrollPosition = window.scrollY;
 
+// Scrolling past 48pixels and the top banner will become sticky
 window.onscroll = function addClass() {
     scrollPosition = window.scrollY;
 
